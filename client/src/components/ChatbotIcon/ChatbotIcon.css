@@ -6,9 +6,9 @@
 
 .chatbot-btn {
     padding: 10px;
-    border: solid 1px #ef8236;
+    border: solid 1px #976aa2;
     border-radius: 10px;
-    background-color: #ef8236;
+    background-color: #976aa2;
     font-size: 15px;
     color: white;
     cursor: pointer;
@@ -17,5 +17,5 @@
 
 .chatbot-btn:hover{
     background-color: white;
-    color: #ef8236;
+    color: #976aa2;
 }

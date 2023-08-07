@@ -20,7 +20,7 @@ const QuestionsDetails = () => {
     const Navigate = useNavigate()
     const dispatch = useDispatch()
     const location = useLocation()
-    const url = 'https://stack-overflowclone0.netlify.app/'
+    const url = 'https://stackoverflow28.netlify.app'
     const User = useSelector((state) => (state.currentUserReducer))
     const handlePostAns = (e, answerLength) =>{
       e.preventDefault()

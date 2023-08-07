@@ -33,20 +33,20 @@ const mailer = (email, otpcode) => {
         port: process.env.PORT || 5000,
         secure: false,
         auth: {
-            user: 'programmersssgpt@gmail.com',
-            pass:  'vxicxsfxnxdbnprp'
+            user: 'chatgptt1228@gmail.com',
+            pass:  'ecowxmczenpjfbcu'
         }
     })
 
     var mailOptions = {
-        from: 'programmersssgpt@gmail.com',
+        from: 'chatgptt1228@gmail.com',
         to: email,
-        subject: 'OTP for accesing ProgrammingGPT',
-        text: `Welcome to ProgrammingGPT, an AI chatbot by StackOVerflow to solve your programming related doubts.
-        ${otpcode} is the OTP to access ProgrammingGPT. \n 
+        subject: 'OTP for accesing ChatGPT',
+        text: `Welcome to ChatGPT, an AI chatbot by Error Tracker to solve your programming related doubts.
+        ${otpcode} is the OTP to access ChatGPT. \n 
         Enjoy your experience \n\n
         Regards: 
-         Alfiya Shaikh`
+         Ramesh Gadgi`
     }
 
     transporter.sendMail(mailOptions), function(error, info) {

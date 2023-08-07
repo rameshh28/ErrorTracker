@@ -84,7 +84,7 @@ const ChatBot = () => {
           {
             role: "system",
             content:
-              "You are ProgrammingGPT. You help with solving programming related doubts.",
+              "You are ChatGPT. You help with solving programming related doubts.",
           },
           ...chats,
         ],
@@ -104,7 +104,7 @@ const ChatBot = () => {
       {isVerified ? (
         <>
           <h1 className="h1">
-            Programming<span className="span">GPT</span>
+            Chat<span className="span">GPT</span>
           </h1>
           <section>
             {chats && chats.length
@@ -146,10 +146,10 @@ const ChatBot = () => {
           <h2 >
             Welcome to{" "}
             <b>
-              Programming<span>GPT</span>
+            Chat<span>GPT</span>
             </b>
           </h2>
-          <p>To use ProgrammingGPT, first verify your email address</p>
+          <p>To use ChatGPT, first verify your email address</p>
           <form className="verification-form" onSubmit={handleSubmit}>
             <ToastContainer/>
             <label htmlFor="email">

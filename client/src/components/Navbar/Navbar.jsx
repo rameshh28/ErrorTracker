@@ -36,8 +36,10 @@ const Navbar = () => {
   return (
     <nav className='main-nav'>
         <div className='navbar'>
+        <h3>Error Tracker</h3>
             <Link to='/' className='nav-item nav-logo'>
-                <img src={logo} alt='logo'/>
+                { <img src={logo} alt='logo'/> }
+               
             </Link>
                 <Link to='/' className='nav-item nav-btn'>About</Link>
                 <Link to='/' className='nav-item nav-btn'>Products</Link>
@@ -52,7 +54,7 @@ const Navbar = () => {
                     <>
                     <Link to='/Community' className='nav-item nav-btn community'>Community</Link>
                 <Link to='/GPT' className='nav-item nav-btn gpt'>ProgrammingGPT</Link>
-                        <Avatar backgroundColor='#009dff' px="10px" py="7px" borderRadius="50%" color="white"><Link to={`/Users/${User?.result._id}`} style={{textDecoration: 'none'}}>{User.result.name.charAt(0).toUpperCase()}</Link></Avatar>
+                        <Avatar backgroundColor='#7b68ee' px="10px" py="7px" borderRadius="50%" color="white"><Link to={`/Users/${User?.result._id}`} style={{textDecoration: 'none'}}>{User.result.name.charAt(0).toUpperCase()}</Link></Avatar>
                         <button className='nav-item nav-links' onClick={handleLogout}>Log Out</button>
                     </>
                 }

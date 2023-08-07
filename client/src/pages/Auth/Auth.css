@@ -13,6 +13,8 @@
 }
 
 .login-logo{
+    height: 55px;
+    width: 55px;
     padding: 20px 30px;
 }
 
@@ -63,8 +65,8 @@
 .auth-btn{
     margin-top: 10px;
     padding: 10px 5px;
-    background-color: #009dff;
-    border: solid 1px #009dff;
+    background-color: #976aa2;
+    border: solid 1px #976aa2;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -74,12 +76,12 @@
 }
 
 .auth-btn:hover{
-    background-color: #018ce3;
+    background-color: #976aa2;
 }
 
 .handle-switch-btn{
     background-color: transparent;
-    color: #007ac6;
+    color: #976aa2;
     border: none;
     font-size: 13px;
     cursor: pointer;

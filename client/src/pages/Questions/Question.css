@@ -27,7 +27,7 @@
     color: rgb(206, 203, 203);
   }
   .votes-icon:active {
-    color: #ef8236;
+    color: #976aa2;
   }
   .question-details-container .question-body {
     line-height: 22px;
@@ -47,7 +47,7 @@
     font-size: 13px;
     border-radius: 2px;
     background-color: #e1ecf4;
-    color: #39739d;
+    color: #976aa2;
     text-decoration: none;
     line-height: 22px;
   }
@@ -99,16 +99,16 @@
   .post-ans-container form .post-ans-btn {
     margin: 20px 0px;
     padding: 10px 10px;
-    background-color: #009dff;
+    background-color: #976aa2;
     color: white;
-    border: solid 1px #009dff;
+    border: solid 1px #976aa2;
     border-radius: 4px;
     cursor: pointer;
     transition: 0.5s all;
   }
   
   .post-ans-container form .post-ans-btn:hover {
-    background-color: #0086d8;
+    background-color: #976aa2;
   }
   
   /* Display answer container */

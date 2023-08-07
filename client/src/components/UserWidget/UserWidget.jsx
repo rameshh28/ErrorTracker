@@ -11,10 +11,10 @@ const UserWidget = () => {
     <div className='user-widget-container'>
         <div className="user-name">
             <img src={user} alt="user" width="18"/>    
-            <h2>Alfiya Shaikh</h2>
+            <h2>Ramesh Gadgi</h2>
         </div>
         <div className='friends'>
-            <p>0 friends</p>
+            <p>1 friends</p>
         </div>
         <hr />
         <div className="user-occupation">

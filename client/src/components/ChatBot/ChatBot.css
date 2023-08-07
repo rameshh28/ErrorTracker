@@ -16,7 +16,7 @@
 
 .h1 .span {
   font-weight: 600;
-  color: #ef8236;
+  color: #976aa2;
 }
 
 .key {
@@ -24,11 +24,11 @@
 }
 
 .user_msg {
-  color: #ef8236;
+  color: #976aa2;
   max-width: 52%;
   padding: 15px;
   border-radius: 50px;
-  border: solid 3px #ef8236;
+  border: solid 3px #976aa2;
   text-align: right;
   margin-left: 48%;
   display: flex;
@@ -36,7 +36,7 @@
 }
 
 .assistant {
-  background-color: #ef8236;
+  background-color: #976aa2;
   max-width: 52%;
   padding: 15px;
   border-radius: 50px;
@@ -53,7 +53,7 @@ p span:first-child {
 }
 
 .typing {
-  background-color: #ef8236;
+  background-color: #976aa2;
   border-radius: 50px;
   max-width: 52%;
   padding: 15px;
